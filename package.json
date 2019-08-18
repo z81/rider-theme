@@ -1,0 +1,21 @@
+{
+    "name": "rider-theme",
+    "displayName": "Rider theme",
+    "publisher": "z81",
+    "description": "",
+    "version": "0.0.1",
+
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "Rider Theme",
+            "uiTheme": "vs",
+            "path": "./themes/Rider Theme-color-theme.json"
+        }]
+    }
+}
