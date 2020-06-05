@@ -1,1 +1,1 @@
- ERROR  Make sure to edit the README.md file before you publish your extension.
+![](preview.png)

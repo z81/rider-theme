@@ -4,6 +4,10 @@
 	"colors": {
 		"editor.background": "#ffffff",
 		"editor.foreground": "#2288ae",
+		"activityBar.activeBackground": "#289fca",
+		"activityBarBadge.background": "#00bbff",
+		"activityBarBadge.foreground": "#ffffff",
+		"activityBar.foreground": "#ffffff",
 		"activityBar.background": "#2288ae",
 		"editor.selectionBackground": "#c6f5e7",
 		"editorLineNumber.foreground": "#a0a0a0"
@@ -68,7 +72,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#9046bb"
 			}
 		},
 		{
@@ -124,7 +128,6 @@
 			"name": "Classes",
 			"scope": [
 				"entity.name.type",
-				"entity.other.inherited-class",
 				"support.class"
 			],
 			"settings": {
@@ -422,11 +425,31 @@
 			}
 		},
 		{
+			"name": "Variables and object properties",
+			"scope": [
+				"variable.other.constant.tsx"
+			],
+			"settings": {
+				"foreground": "#F8F8F2"
+			}
+		},
+		{
 			"name": "Extra: Diff To",
 			"scope": "meta.diff.header.to-file",
 			"settings": {
 				"foreground": "#434343"
 			}
-		}
+		},
+		{
+			"name": "Assertion operators",
+			"scope": [
+				"punctuation.definition.group.assertion.regexp",
+				"keyword.operator.negation.regexp"
+			],
+			"settings": {
+				"foreground": "#FF5555"
+			}
+		},
+
 	]
 }

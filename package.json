@@ -3,7 +3,7 @@
     "displayName": "Rider theme",
     "publisher": "z81",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.2",
 
     "engines": {
         "vscode": "^1.37.0"
