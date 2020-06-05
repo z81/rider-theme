@@ -4,6 +4,9 @@
     "publisher": "z81",
     "description": "",
     "version": "0.0.2",
+    "repository": {
+        "url": "https://github.com/z81/rider-theme"
+    },
 
     "engines": {
         "vscode": "^1.37.0"
